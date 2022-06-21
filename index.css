@@ -1,0 +1,62 @@
+:root {
+    --bg: #282828;
+    --h1: #fb4934;
+    --h2: #b8bb26;
+    --fg: #ebdbb2;
+    --link: #fabd2f;
+    --footer: #d3869b;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+html {
+    font-family: 'Source Code Pro', monospace;
+    background-color: var(--bg);
+    color: var(--fg);
+    line-height: 1.4;
+}   
+
+body {
+    margin: 0px auto;
+    max-width: 50rem;
+    box-sizing: border-box;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--h1);
+    line-height: 0.3;
+}
+
+h2 {
+    color: var(--h2);
+    padding-top: 1rem;
+    line-height: 0.5;
+}
+
+a {
+    color: var(--link);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 1rem 0px;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    color: var(--footer);
+}
+
+footer > a {
+    color: inherit;
+}
